@@ -1,7 +1,12 @@
+:root{
+    --primaryColor:rgb(137,196,196,.7);
+    --secondaryColor:cornflowerblue;
+}
 body{
     margin: 0;
     padding: 0;
 }
+
 a{
     display: inline-block;
     transition: all .2s ease-in;
@@ -14,8 +19,8 @@ color: coral;
 
 }
 h1{
-    color: rgb(137, 196, 196);
+    color: var(--primaryColor);
 }
 ul li:first-child{
-    color: cornflowerblue;
+    color: var(--secondaryColor);
 }
