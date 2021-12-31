@@ -20,7 +20,13 @@ color: coral;
 }
 h1{
     color: var(--primaryColor);
+  
 }
 ul li:first-child{
     color: var(--secondaryColor);
+}
+p{
+    color: #444;
+    line-height: 1.5rem;
+    background-color: #f7f7f7f7;
 }
