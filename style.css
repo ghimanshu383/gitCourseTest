@@ -2,7 +2,7 @@
     --primaryColor:rgb(137,196,196,.7);
     --secondaryColor:cornflowerblue;
 }
-body{
+*{
     margin: 0;
     padding: 0;
 }
