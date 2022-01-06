@@ -2,9 +2,50 @@
 <html>
   <head>
     <title>BLOG</title>
+    <style>
+      *{
+        margin:0;
+        padding: 0;
+      }
+      a{
+        text-decoration: none;
+        font-size: 22px;
+        cursor: pointer;
+        display: inline block;
+        padding: 10px;
+        
+      }
+      h2{
+        margin: 10px 5px;
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        font-family: sans-serif;
+        color:burlywood;
+        
+        backdrop-filter: 5px;
+      }
+      .submitButton{
+        display: block;
+        font-size: 22px;
+        font-style: italic;
+        color:cornflowerblue;
+        background-color: #333;
+        border-radius: 10px;
+        margin-top: 5px;
+        width: 100%;
+        padding: 10px;
+        transition: all .2s ease-in-out;
+      }
+      .submitButton:active{
+        transform: translate(0,18%);
+      }
+
+    </style>
   </head>
   <body>
     <h2>BLOG</h2>
     <a href="index.html">Back to home</a>
+    <button class="submitButton"><a>Submit</a></button>
   </body>
 </html>
