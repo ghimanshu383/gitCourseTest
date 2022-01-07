@@ -33,3 +33,13 @@ p{
     color: #444;
     line-height: 1.5rem;
 }
+.heading{
+    display: block;
+    font-style: italic;
+    color: cornflowerblue;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+}
